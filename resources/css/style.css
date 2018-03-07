@@ -151,23 +151,36 @@ a {
 /* Learn Banner */
 
 .learn-banner {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: auto;
   background-color: grey;
+  margin-top: 0;
 }
 
 .learn-banner h3 {
   text-align: center;
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 .learn-banner .gallery {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 4rem 9rem;
+  justify-content: center;
 }
 
 .gallery-thumbnail {
+  background-color: white;
+  width: 32.5rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+}
 
+.gallery-thumbnail img {
+  position: relative;
+  display: block;
+  max-width: 50rem;
+  width: 100%;
+  height: auto
 }
