@@ -584,17 +584,23 @@ footer span {
 
 /* Transformations */
 
-.gallery-thumbnail { transition: all .2s ease-in-out; }
 .gallery-thumbnail:hover {
   transform: scale(1.1);
+  transition: .3s ease-out;
 }
 
-.thumbnail-info { transition: .2s ease-in-out; }
+
 .thumbnail:hover {
   transform: scale(1.1);
+  transition: .4s ease-out;
 }
 
 .thumbnail-info h4:hover {
   color: #E5E5E5;
   transition: .2s ease-in-out;
+}
+
+.button:hover {
+  opacity: .8;
+  transition: .4s ease-in-out;
 }
