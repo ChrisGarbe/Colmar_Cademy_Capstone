@@ -92,13 +92,13 @@ header {
 #colmar {
   font-weight: 700;
   font-size: 3rem;
-  color: black;
+  color: #CCA43B;
 }
 
 #academy {
   font-size: 3rem;
   font-weight: 300;
-  color: #CCA43B;
+  color:  #E5E5E5;
 }
 
 nav ul {
@@ -204,6 +204,13 @@ body.scrolled header:hover {
   font-size: 3rem;
   font-weight: 600;
   padding: 1rem;
+}
+
+.button p:hover {
+  color: #E5E5E5;
+  transition: .2s ease-in-out;
+
+
 }
 
 /* MOBLILE- Main Banner */
@@ -322,9 +329,10 @@ body.scrolled header:hover {
   justify-content: center;
 }
 
-.thumbnail h4 {
+.thumbnail a {
   font-size: 1.5rem;
   font-weight: 650;
+  color: #CCA43B;
 }
 
 .thumbnail h2 {
@@ -590,17 +598,13 @@ footer span {
 }
 
 
-.thumbnail:hover {
+/* .thumbnail:hover {
   transform: scale(1.1);
   transition: .4s ease-out;
-}
+} */
 
-.thumbnail-info h4:hover {
-  color: #E5E5E5;
+.thumbnail-info a:hover {
+  /* color: #E5E5E5; */
+  text-decoration: underline;
   transition: .2s ease-in-out;
-}
-
-.button:hover {
-  opacity: .8;
-  transition: .4s ease-in-out;
 }
